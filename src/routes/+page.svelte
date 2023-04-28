@@ -25,9 +25,11 @@
 	.posts {
 		display: grid;
 		gap: var(--size-7);
+		margin-bottom: var(--size-4);
 	}
 	.post {
 		max-inline-size: var(--size-content-3);
+		margin-bottom: var(--size-4);
 	}
 	.post:not(:last-child) {
 		border-bottom: 1px solid var(--border);
@@ -37,6 +39,7 @@
 	.title {
 		font-size: var(--font-size-fluid-3);
 		text-transform: capitalize;
+		margin-bottom: 4px;
 	}
 
 	.date {

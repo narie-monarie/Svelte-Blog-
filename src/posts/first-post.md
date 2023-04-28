@@ -1,5 +1,5 @@
 ---
-title: A web Server in C++?
+title: Building a Web Server in C++
 description: Web Server in C++
 date: '2023-4-28'
 categories:
@@ -11,7 +11,7 @@ published: true
 ## Build a web Server in C++ 🤔
 #### Creating a web server in C++ involves several steps. Here is a simple example to get you started:
 
-1. Include the necessary header files:
+- Include the necessary header files:
 
 ```cpp
 #include <iostream>
