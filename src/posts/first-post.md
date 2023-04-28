@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: A web Server in C++?
 description: Web Server in C++
 date: '2023-4-28'
 categories:
@@ -8,8 +8,7 @@ categories:
 published: true
 ---
 
-## Build a web Server in C++
-
+## Build a web Server in C++ 🤔
 #### Creating a web server in C++ involves several steps. Here is a simple example to get you started:
 
 1. Include the necessary header files:
@@ -93,3 +92,5 @@ int main() {
 }
 
 ```
+
+This example creates a simple web server that listens on port 8080 and returns the contents of a requested file. Note that this is a very basic implementation and should not be used in production environments without proper security measures in place.
