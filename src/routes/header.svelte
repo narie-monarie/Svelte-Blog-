@@ -1,25 +1,23 @@
 <script lang="ts">
-	import * as config from '../lib/config';
+	import * as config from '$lib/config';
 	import Toggle from './toggle.svelte';
 </script>
 
 <nav>
+	<!-- Title -->
 	<a href="/" class="title">
 		<b>{config.title}</b>
 	</a>
 
+	<!-- Navigation -->
 	<ul class="links">
 		<li>
 			<a href="/about">About</a>
 		</li>
-	</ul>
-
-	<ul class="links">
 		<li>
 			<a href="/contact">Contact</a>
 		</li>
 	</ul>
-
 	<Toggle />
 </nav>
 
@@ -27,9 +25,11 @@
 	nav {
 		padding-block: var(--size-7);
 	}
+
 	.links {
 		margin-block: var(--size-7);
 	}
+
 	a {
 		color: inherit;
 		text-decoration: none;
